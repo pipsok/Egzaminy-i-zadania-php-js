@@ -1,0 +1,56 @@
+🔥 Zadanie (poziom wyżej)
+
+Masz input, w którym użytkownik wpisuje liczby oddzielone przecinkami.
+
+HTML
+<input type="text" id="liczby" placeholder="np. 2,5,7,10">
+<button onclick="policz()">Policz</button>
+
+<div id="wynik"></div>
+🧠 Zadanie
+
+Funkcja policz() ma:
+
+1️⃣ pobrać tekst z inputa
+2️⃣ rozdzielić liczby po przecinku
+3️⃣ zamienić je na liczby
+4️⃣ policzyć sumę wszystkich liczb
+5️⃣ wyświetlić wynik w div
+
+🔧 Podpowiedzi (egzaminowe)
+
+Rozdzielenie tekstu:
+
+split(",")
+
+Pętla:
+
+for
+📌 Przykład działania
+
+Użytkownik wpisze:
+
+2,5,7
+
+Program wyświetli:
+
+14
+Struktura
+
+Twoja funkcja będzie mniej więcej wyglądała tak:
+
+function policz(){
+
+    let liczby = document.getElementById("liczby").value;
+
+    // rozdziel liczby
+
+    // pętla
+
+    // suma
+
+    // pokaż wynik
+
+}
+
+Spróbuj to napisać sam.

@@ -1,0 +1,47 @@
+🧠 Zadanie dla ciebie (dokładnie pod ten arkusz)
+
+Masz HTML:
+
+<input type="text" id="noweZadanie" placeholder="Dodaj zadanie...">
+<button onclick="dodaj()">Dodaj</button>
+
+<ul id="lista">
+<li>Gimnastyka <button onclick="wykonane(this)">Wykonane</button></li>
+<li>Zakupy <button onclick="wykonane(this)">Wykonane</button></li>
+</ul>
+Zadanie 1
+
+Napisz funkcję:
+
+function wykonane(btn){
+
+}
+
+która:
+
+👉 przekreśli tekst zadania.
+
+Podpowiedź:
+
+btn.parentElement
+Zadanie 2
+
+Napisz funkcję:
+
+function dodaj(){
+
+}
+
+która:
+
+1️⃣ pobiera tekst z inputa
+2️⃣ tworzy nowy <li>
+3️⃣ dodaje tekst zadania
+4️⃣ dodaje przycisk Wykonane
+5️⃣ dodaje element do listy
+
+Dlaczego to jest dobre ćwiczenie
+
+Bo to jest praktycznie 1:1 JS z tego egzaminu.
+
+Jeśli to ogarniesz, to ten arkusz masz prawie w kieszeni.

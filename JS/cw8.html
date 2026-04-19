@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <img id="glowne" src="1.jpg" alt="Aktywne zdjęcie">
+
+    <button onclick="poprzednie()">poprzednie</button>
+    <button onclick="nastepne()">nastepne</button> <br> <br>
+
+    <input type="radio" name="efekt" value="blur"> Blur  <br>
+    <input type="radio" name="efekt" value="sepia"> Sepia <br> 
+    <input type="radio" name="efekt" value="invert"> Negatyw <br>
+    <button onclick="efekt1()">Zastosuj filtr</button> <br>
+    <input type="range" min="0" max="100" value="0" id="slider"> <br>
+    <button onclick="efekt2()">zastosuj jasnosc</button>
+    <script src="cw8.js"></script>
+</body>
+</html>

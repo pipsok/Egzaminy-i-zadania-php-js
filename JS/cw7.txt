@@ -1,0 +1,94 @@
+Dobra Paweł — to jest złoty arkusz do nauki, serio. I bardzo dobrze go wybrałeś, bo tu masz:
+
+👉 SQL
+👉 HTML
+👉 CSS
+👉 i JS kalkulator (typowy egzaminowy)
+
+I teraz skupimy się na tym, co dla ciebie najważniejsze: JS z tej strony koszty.html.
+
+🔥 Rozbijamy JS z tego egzaminu
+
+To zadanie robi dokładnie to:
+
+Masz inputy:
+
+szerokość
+
+długość
+
+Masz radio:
+
+laminowane
+
+winylowe
+
+deska
+
+Masz przycisk:
+
+👉 Oblicz
+
+🧠 Logika (egzaminowa)
+
+1️⃣ pobierz szerokość i długość
+2️⃣ sprawdź czy wpisane
+3️⃣ policz pole:
+
+pole = szerokosc * dlugosc
+
+4️⃣ sprawdź który panel zaznaczony
+5️⃣ przypisz cenę (np):
+
+laminowane = 12
+winylowe = 14
+deska = 18
+
+6️⃣ policz koszt:
+
+koszt = pole * cena
+
+7️⃣ wyświetl wynik
+
+🔥 Twoje zadanie (1:1 egzamin)
+
+Masz HTML:
+
+<input type="number" id="szerokosc">
+<input type="number" id="dlugosc">
+
+<input type="radio" name="typ" value="laminowane">
+<input type="radio" name="typ" value="winylowe">
+<input type="radio" name="typ" value="deska">
+
+<button onclick="oblicz()">Oblicz</button>
+
+<p id="wynik"></p>
+🧠 Napisz funkcję:
+function oblicz(){
+
+}
+
+która:
+
+✔ sprawdza czy dane wpisane
+✔ liczy pole
+✔ sprawdza zaznaczony typ panelu
+✔ liczy koszt
+✔ wyświetla:
+
+Pole powierzchni pomieszczenia: X, koszt montażu Y
+
+✔ jeśli brak danych:
+
+Wprowadź poprawne dane
+🔧 Podpowiedź (egzaminowa)
+document.querySelector('input[name="typ"]:checked').value
+🔥 To jest dokładnie JS z tego arkusza
+
+Jak to ogarniesz:
+
+👉 masz zamknięty JS z INF.03 w 90%
+
+Dawaj kod jak napiszesz.
+To jest najważniejsze zadanie z tego egzaminu dla ciebie. 💻🔥

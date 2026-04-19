@@ -1,0 +1,57 @@
+🔥 Zadanie – Slider CKE (dokładnie ten arkusz)
+HTML (ważna część)
+<img id="glowne" src="1.jpg" alt="Aktywne zdjęcie">
+
+<button onclick="poprzednie()"><</button>
+<button onclick="nastepne()">></button>
+🧠 Co masz zrobić (dokładnie z arkusza)
+Funkcja nastepne()
+
+👉 zmienia zdjęcie na kolejne
+👉 jeśli jest 7.jpg → wraca na 1.jpg
+
+Funkcja poprzednie()
+
+👉 zmienia na poprzednie
+👉 jeśli jest 1.jpg → idzie na 7.jpg
+
+🔧 KLUCZ (egzaminowy sposób)
+
+Nie robimy tablicy — robimy numer zdjęcia:
+
+let numer = 1;
+🔥 Twoje zadanie
+
+Napisz:
+
+function nastepne(){
+
+}
+function poprzednie(){
+
+}
+🧠 Podpowiedź
+
+Zmiana zdjęcia:
+
+document.getElementById("glowne").src = numer + ".jpg";
+💡 Logika
+następne:
+numer++
+if(numer > 7) → numer = 1
+poprzednie:
+numer--
+if(numer < 1) → numer = 7
+🔥 To jest klasyk CKE
+
+To zadanie sprawdza:
+
+zmienne ✔
+
+if ✔
+
+manipulację DOM ✔
+
+logikę ✔
+
+Czyli dokładnie to co robiłeś.

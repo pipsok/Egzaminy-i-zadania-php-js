@@ -1,0 +1,90 @@
+🔥 Zadanie – konwersja na binarny (CKE style)
+HTML (minimum)
+<input type="number" id="liczba" placeholder="Wpisz liczbę dziesiętną">
+<button onclick="przelicz()">Przelicz na binarny</button>
+
+<p id="wynik">Brak obliczeń</p>
+🧠 Co masz zrobić
+
+Funkcja:
+
+function przelicz(){
+
+}
+
+ma:
+
+1️⃣ pobrać liczbę
+2️⃣ zamienić na binarną
+3️⃣ podzielić na grupy po 4
+4️⃣ dodać (2) na końcu
+5️⃣ wyświetlić wynik
+
+🔧 KLUCZ (to jest egzamin)
+1️⃣ Pobierz liczbę
+let liczba = document.getElementById("liczba").value;
+2️⃣ Zamiana na binarny
+
+👉 tu masz dwa podejścia:
+
+❗ egzamin lubi:
+
+pętlę (jak w poleceniu)
+
+ALE…
+
+👉 możesz użyć skrótu:
+
+liczba.toString(2)
+🔥 Na egzaminie to jest OK
+
+Nie musisz pisać całego algorytmu z dzieleniem — skrót jest akceptowany.
+
+3️⃣ Podział na grupy po 4
+
+Tu jest ciekawa część 👇
+
+Masz np:
+
+1000011001
+
+i chcesz:
+
+10 0001 1001
+Podpowiedź
+
+👉 zaczynasz od końca
+👉 dodajesz spację co 4 znaki
+
+🔧 Tip (łatwiejszy sposób)
+
+Możesz iść od końca pętlą:
+
+for(...)
+
+i budować nowy string
+
+4️⃣ Dodaj (2)
++ " (2)"
+5️⃣ Wyświetl
+innerHTML
+🔥 Twoje zadanie
+
+Zrób funkcję:
+
+function przelicz()
+
+Na początek możesz zrobić:
+
+👉 tylko toString(2)
+👉 potem dodamy formatowanie
+
+💡 Plan działania dla ciebie
+
+pobierz liczbę
+
+zrób .toString(2)
+
+wyświetl
+
+(potem ulepszymy)

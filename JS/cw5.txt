@@ -1,0 +1,97 @@
+No i to jest dobre podejście — lista produktów to już coś bliżej prawdziwej aplikacji i często pojawia się w arkuszach (dodawanie elementów do tabeli). Zrobimy wersję, gdzie każde kliknięcie dodaje produkt do listy koszyka.
+
+🔥 Zadanie – lista koszyka
+HTML
+<input type="text" id="produkt" placeholder="Produkt">
+<input type="number" id="ilosc" placeholder="Ilość">
+<input type="number" id="cena" placeholder="Cena">
+
+<button onclick="dodaj()">Dodaj</button>
+
+<ul id="lista"></ul>
+🧠 Zadanie
+
+Funkcja dodaj() ma:
+
+1️⃣ pobrać:
+
+produkt
+
+ilość
+
+cenę
+
+2️⃣ sprawdzić czy któreś pole jest puste
+→ komunikat
+
+Uzupełnij dane
+
+3️⃣ policzyć koszt
+
+koszt = ilość * cena
+
+4️⃣ stworzyć nowy element listy
+
+<li>
+
+5️⃣ wstawić tekst:
+
+Produkt - koszt zł
+
+6️⃣ dodać ten element do listy
+
+ul
+🔧 Nowe rzeczy które poznasz
+
+Tworzenie elementu:
+
+document.createElement("li")
+
+Dodawanie tekstu:
+
+element.innerHTML
+
+Dodanie do listy:
+
+appendChild()
+📌 Przykład działania
+
+Klikasz kilka razy:
+
+Pizza 2 20
+Cola 1 10
+Burger 3 15
+
+Lista wygląda tak:
+
+Pizza - 40 zł
+Cola - 10 zł
+Burger - 45 zł
+Struktura funkcji
+function dodaj(){
+
+// pobierz dane
+
+// sprawdz pola
+
+// policz koszt
+
+// stworz li
+
+// dodaj do listy
+
+}
+🔥 Pro tip (bardzo egzaminowy)
+
+Lista:
+
+let lista = document.getElementById("lista");
+
+Potem:
+
+lista.appendChild(element);
+
+Spróbuj napisać kod.
+Tu już pojawia się manipulacja DOM, która jest bardzo przydatna i często spotykana.
+
+Jak skończysz, pokaż — sprawdzimy i ewentualnie dodamy usuwanie produktów z listy (level 2).

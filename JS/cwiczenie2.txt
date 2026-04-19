@@ -1,0 +1,51 @@
+🔥 Zadanie 2 (bardzo typowe INF.03)
+
+Zrobimy coś co naprawdę często wpada na egzaminie.
+
+Masz taki HTML:
+
+<input type="number" id="a">
+<input type="number" id="b">
+
+<button onclick="oblicz()">Dodaj</button>
+
+<div id="wynik"></div>
+Twoje zadanie
+
+Funkcja oblicz() ma:
+
+1️⃣ pobrać liczbę a
+2️⃣ pobrać liczbę b
+3️⃣ sprawdzić czy któreś pole jest puste
+4️⃣ jeśli tak → komunikat
+
+Wpisz obie liczby
+
+5️⃣ jeśli są wpisane → policzyć sumę
+
+6️⃣ wyświetlić wynik w div
+
+Czyli logika
+pobierz a
+pobierz b
+
+jeśli puste -> alert
+
+jeśli nie -> suma
+
+wyświetl wynik
+Mała wskazówka (jak na egzaminie)
+
+Przy sprawdzaniu pustych pól użyj:
+
+a == "" || b == ""
+
+czyli OR.
+
+Napisz funkcję:
+
+function oblicz(){
+
+}
+
+Tak jakbyś był na egzaminie.

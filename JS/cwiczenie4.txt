@@ -1,0 +1,67 @@
+🔥 Zadanie – koszyk zakupów (bardzo egzaminowy klimat)
+HTML
+
+Masz taki formularz:
+
+<input type="number" id="ilosc">
+<input type="number" id="cena">
+
+<button onclick="oblicz()">Oblicz koszt</button>
+
+<div id="wynik"></div>
+🧠 Twoje zadanie
+
+Funkcja oblicz() ma:
+
+1️⃣ pobrać ilość produktów
+2️⃣ pobrać cenę jednego produktu
+
+3️⃣ jeśli któreś pole jest puste → komunikat
+
+Uzupełnij dane
+
+4️⃣ jeśli dane są wpisane → policzyć:
+
+koszt = ilość * cena
+
+5️⃣ jeśli koszt większy niż 100 zł → dać rabat 10%
+
+6️⃣ wyświetlić końcową cenę w div
+
+📌 Przykład działania
+
+Użytkownik wpisze:
+
+ilosc = 5
+cena = 30
+
+czyli:
+
+150 zł
+
+program pokaże:
+
+Cena po rabacie: 135
+Podpowiedzi
+
+Możesz użyć:
+
+parseFloat()
+
+i warunku:
+
+if(koszt > 100)
+Struktura
+function oblicz(){
+
+// pobierz dane
+
+// sprawdz czy puste
+
+// oblicz koszt
+
+// rabat
+
+// wyswietl wynik
+
+}

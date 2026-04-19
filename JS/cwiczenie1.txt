@@ -1,0 +1,45 @@
+🧠 Zadanie (typowe egzaminacyjne)
+
+Masz formularz z polem na liczbę.
+
+Po kliknięciu przycisku skrypt ma:
+
+1️⃣ pobrać liczbę z inputa
+2️⃣ sprawdzić czy pole nie jest puste
+3️⃣ jeśli puste → komunikat „Podaj liczbę”
+4️⃣ jeśli liczba jest podana → policzyć kwadrat tej liczby
+5️⃣ wyświetlić wynik w elemencie div
+
+HTML (to już masz)
+<input type="number" id="liczba">
+<button onclick="oblicz()">Oblicz</button>
+
+<div id="wynik"></div>
+Twoje zadanie
+
+Napisz funkcję:
+
+function oblicz() {
+
+}
+
+która zrobi wszystko z polecenia.
+
+Podpowiedź z egzaminu:
+
+document.getElementById
+
+.value
+
+if
+
+parseInt
+
+.innerHTML
+
+Czyli schemat
+
+1️⃣ pobierz wartość
+2️⃣ sprawdź czy puste
+3️⃣ oblicz kwadrat
+4️⃣ pokaż wynik
